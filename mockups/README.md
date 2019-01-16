@@ -1,8 +1,8 @@
-AIM: to create a website that allows users to pick and decide on a holiday. Giving them access to choosing, 
-1: Select a destination city
-2: Find tourist attractions
-3: Find accommodation
-4: Find bars and restaurants
+AIM: to create a website that allows users to pick and decide on a holiday. Giving them access to choosing;
+1: a destination city
+2: tourist attractions
+3: accommodation
+4: bars and restaurants
 
 
 

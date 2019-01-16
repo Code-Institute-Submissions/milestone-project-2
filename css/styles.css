@@ -26,3 +26,7 @@ body {
         text-align: center;
         font-size: 56px;
 }
+
+#search-input {
+    font-size: 18px;
+}
