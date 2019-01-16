@@ -1,7 +1,7 @@
 function initAutocomplete() {
     var map = new google.maps.Map(document.getElementById('map'), {
-        center: { lat: -33.8688, lng: 151.2195 },
-        zoom: 13,
+        center: { lat: 34.554174, lng: 18.042862  },
+        zoom: 4,
         mapTypeId: 'roadmap'
     });
 
@@ -18,12 +18,15 @@ function initAutocomplete() {
     var markers = [];
     // Listen for the event fired when the user selects a prediction and retrieve
     // more details for that place.
+
     searchBox.addListener('places_changed', function() {
         var places = searchBox.getPlaces();
 
         if (places.length == 0) {
             return;
         }
+        
+        console.log(places.length)
 
         // Clear out the old markers.
         markers.forEach(function(marker) {
