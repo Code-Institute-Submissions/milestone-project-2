@@ -1,9 +1,12 @@
+// AutoComplete
 function initAutocomplete() {
     var map = new google.maps.Map(document.getElementById('map'), {
         center: { lat: 34.554174, lng: 18.042862 },
         zoom: 4,
         mapTypeId: 'roadmap'
     });
+    
+    
 
     // search box
     var input = document.getElementById('search-input');
@@ -64,4 +67,30 @@ function initAutocomplete() {
         });
         map.fitBounds(bounds);
     });
+
+    addMarker({ lat: 26.5320334, lng: 29.8241934 })
+    addMarker({ lat: 42.9962815, lng: 12.3607714 })
+    addMarker({ lat: 39.4103157, lng: -3.3879712 })
+    addMarker({ lat: 34.554174, lng: 18.042862 })
+    // Add marker function
+    function addMarker(coords) {
+        var marker = new google.maps.Marker({
+            position: coords,
+            map: map,
+            icon: 'https://developers.google.com/maps/documentation/javascript/examples/full/images/beachflag.png'
+        });
+    }
+
 }
+
+
+
+//information window
+
+var infowindow = new google.maps.info - window({
+    content: '<h1> (add info here) </h1>'
+})
+
+marker.addlistener('click', function() {
+    infowindow.open(map, marker);
+})
