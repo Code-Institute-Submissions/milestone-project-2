@@ -46,8 +46,8 @@
      google.maps.event.addListener(marker, 'click', function() {
        alert(marker.test)
        map.setZoom(9);
-       map.setCenter(e.latLng);
        search()
+       map.setCenter(e.latLng);
      });
    });
  }
@@ -70,7 +70,7 @@
  function search() {
    var search = {
      bounds: map.getBounds(),
-     types: ['lodging']
+    types: ['restaurant', 'lodging']
    };
 
    places.nearbySearch(search, function(results, status) {
