@@ -33,9 +33,8 @@
  }
  // italy default marker //
  function createMarkers() {
-  customMarkers = [
-   [{ lat: 42.9962815, lng: 12.3607714 }, 'This is Italy! ']
-  ];
+  }
+  
   //add custom markers //
   customMarkers.forEach(latLang => {
    let marker = new google.maps.Marker({
@@ -53,7 +52,6 @@
     map.setCenter(e.latLng);
    });
   });
- }
 
  // When the user selects a city, get the place details for the city and
  // zoom the map in on the city.

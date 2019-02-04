@@ -1,13 +1,12 @@
 # JM HOLIDAYS
 
-This is my second milestone project through the course provided by codeinstitute.
+This is my second milestone project through the course provided by Codeinstitute.
 I was asked to create an application that allows users to search for holidays,
-giving information such as, 'tourist attractions', 'hotels & accomodation' and 
+giving information such as 'tourist attractions', 'hotels & accomodation' and 
 'bars and restaurants' that can be found within the area that the user searches for
 using the search bar provided. 
 
-I did this by using the documents provided by google maps such as, 'Google Maps API' 
-and 'Google Places API'.
+I did this by using 'Google Maps API' and 'Google Places API'.
 
 ## UX
 
@@ -45,7 +44,7 @@ that bar or club.
 
 #### Mockups
 
-all of my mockups are located in this repository.
+All of my mockups are located in this repository in the mockups directory.
 
 ## Features
 
@@ -67,22 +66,11 @@ control over what the user wishes to see at what time.
 - Allows user to search for specific locations around the world, which makes finding
 a location to go on holiday much quicker; created for the users convenience.
 
-
-### title
-
-- To show the user what the web page is called, so that they can remember the page
-should they wish to visit the site again.
-
-
 ### social media links in footer
 
 - Allows users to have social media links so that they can follow JM holidays
-should they wish to. 
-
-### custom flag
-
-- Allows users to see what the possibilities are whilst using the site. 
-
+should they wish to. However as this is a project for Codeinstitute, the social
+media links are dummy links and go no where. 
 
 ### future features
 
@@ -121,10 +109,31 @@ function; adding hotels and restaurants.
 
 ##### Balsamiq
 (https://balsamiq.com/)
+
 ## Testing
 
+I tested locally and on GITHUB pages using Chrome developer tools, testing its 
+functionality as well as the look and feel (in landscape and portrait mode) on Galaxy 
+S5, Nexus 5S, Nexus 6P, iPhone 7, iPhone 7 Plus, iPhone 8, iPhone 8 Plus, iPhone X,
+iPad, iPad Pro and responsive desktop.
+I tested the functionality of the reset button. I also tested the 'Enter a city' 
+input box with wrong names and empty strings to ensure they don't break the site. 
+
 ## Deployment
+- i have successfully deployed my website, which is hosted on github.
+  the deployed version and the local versions are the same. 
 
 ## Credits
 
-###
+### content
+
+- some of the google map functions were taken from (https://developers.google.com/maps/documentation/)
+- the search results for area searches was taken from (https://developers.google.com/places/web-service/intro)
+
+
+### acknowledgements
+
+- I received inspiration from:
+1: My Mentor
+2: Friends
+3: Google API documents
