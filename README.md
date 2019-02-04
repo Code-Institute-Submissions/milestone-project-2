@@ -24,21 +24,21 @@ accomodation, giving me ratings of the accomodation.
 I want this as it allows me to search quickly and effectively, saving me time.
 
 2: As a user, I wish to have the ability to search for bars and restaurants 
-that I can go to when i travel to Italy. This is so that i can plan my days
-in advance, so that i can relax more without having to stress over where
+that I can go to when I travel to Italy. This is so that I can plan my days
+in advance, so that I can relax more without having to stress over where
 me and the family are going to eat for the evening. 
 
 3: As a user, I wish to have the ability to search for points of interest in China, 
-as I plan to move there permanently. I want this feature so that i can make a plan 
-of where i am going to go when i arrive in China. 
+as I plan to move there permanently. I want this feature so that I can make a plan 
+of where I am going to go when I arrive in China. 
 
 4: As a user, I wish to be able to see Accomodation reviews, as well as direct links
-to the accomodation websites so that i can see more clearly where that accomodation 
-is located and how much it would cost. I want this feature so that i can make a more
-informed decision on where i will stay when i go on holiday. 
+to the accomodation websites so that I can see more clearly where that accomodation 
+is located and how much it would cost. I want this feature so that I can make a more
+informed decision on where I will stay when I go on holiday. 
 
 5: As a user, I wish to have the ability to search for Bars and Clubs in my location
-so that i can go out and celebrate. I want this feature so that I can quickly search
+so that I can go out and celebrate. I want this feature so that I can quickly search
 for multiple locations at once, showing me how far I would have to travel to reach
 that bar or club. 
 
@@ -53,7 +53,7 @@ All of my mockups are located in this repository in the mockups directory.
 - Allows user to see the map of the world, giving them the opportunity to search
 the world for destinations to travel to.
 
-#### dropdown
+#### Dropdown
 
 - Allows user to select which search results they wish to see, giving them more
 control over what the user wishes to see at what time. 
@@ -61,20 +61,20 @@ control over what the user wishes to see at what time.
 2: hotels
 3: points of interest
 
-### searchbox
+### Searchbox
 
 - Allows user to search for specific locations around the world, which makes finding
 a location to go on holiday much quicker; created for the users convenience.
 
-### social media links in footer
+### Social media links in footer
 
 - Allows users to have social media links so that they can follow JM holidays
 should they wish to. However as this is a project for Codeinstitute, the social
 media links are dummy links and go no where. 
 
-### future features
+### Future features
 
-- my plans for the future are:
+- My plans for the future are:
 
 1: to add more custom markers for users
 2: add a calendar that links to the map so that users can select a date to go as
@@ -120,19 +120,19 @@ I tested the functionality of the reset button. I also tested the 'Enter a city'
 input box with wrong names and empty strings to ensure they don't break the site. 
 
 ## Deployment
-- i have successfully deployed my website, which is hosted on github.
+- I have successfully deployed my website, which is hosted on github.
   the deployed version and the local versions are the same. 
  The site can be found here : (https://jakematthews1234.github.io/milestone-project-2/)
 
 ## Credits
 
-### content
+### Content
 
 - some of the google map functions were taken from (https://developers.google.com/maps/documentation/)
 - the search results for area searches was taken from (https://developers.google.com/places/web-service/intro)
 
 
-### acknowledgements
+### Acknowledgements
 
 - I received inspiration from:
 1: My Mentor
