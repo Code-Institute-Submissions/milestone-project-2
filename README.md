@@ -122,6 +122,7 @@ input box with wrong names and empty strings to ensure they don't break the site
 ## Deployment
 - i have successfully deployed my website, which is hosted on github.
   the deployed version and the local versions are the same. 
+ The site can be found here : (https://jakematthews1234.github.io/milestone-project-2/)
 
 ## Credits
 
