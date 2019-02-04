@@ -16,29 +16,32 @@
     font-size: 56px;
 }
 
+/* HEADER */
+
 header {
     background-color: orange;
 }
 
-/* hotel results table */
+/* HOTEL RESULTS TABLE */
 
 #listing {
     text-align: webkit-center;
     padding: 10px;
 }
 
-/* search box */
+/* SEARCH BOX */
 
 #locationField {
     padding: 10px;
 }
-/*font awesome icons */
+
+/*FONT AWESOME ICONS */
 
 .white-text {
     padding-left: 10px;
 }
 
-/* drop down search box */
+/* DROP DOWN SEARCH BOX */
 
 .search-box {
     width: 100%;

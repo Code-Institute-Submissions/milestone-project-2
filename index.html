@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+  <!--- LINKS AND SCRIPT SOURCES ----->
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -13,7 +14,8 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
 
-  <title>Document</title>
+  <!--- TITLE OF WEBPAGE.HTML ----->
+  <title>JM Holidays</title>
 </head>
 
 <body>
@@ -30,24 +32,27 @@
     <div class="row">
       <div class="col-sm-4 border">
         <div class="border search-box">
-          <!-- title of search bar --->
+
           <div id="findhotels">
+            <!--- TITLE OF SEARCH BOX ----->
             <h4 class="text-center">Find Hotels and Restaurants in:</h4>
             <div class="col-xs-4 col-xs-offset-4">
+
               <select id="selectbox">
+                      <!--- OPTION VALUES OF SEARCH PARAMETERS ----->
           <option value="restaurant">Restaurants</option>
           <option value="lodging">Bars and Hotels</option>
           <option value="point_of_interest">Points of Interests</option>
         </select>
             </div>
           </div>
-          <!-- search bar and placeholder --->
+          <!-- SEARCH BAR AND PLACEHOLDER --->
           <div id="locationField" class="text-center">
             <input id="autocomplete" placeholder="Enter a city" type="text" />
           </div>
         </div>
 
-        <!-- Hotel results table --->
+        <!-- HOTEL RESULTS TABLE --->
         <div class="border results">
           <div id="listing">
             <table id="resultsTable">
@@ -59,7 +64,6 @@
       <div class="col-sm-8 border map" id="map"></div>
     </div>
 
-    <!-- Hotel results table --->
     <!-- content of search results if applicable --->
     <div style="display: none">
       <div id="info-content">
@@ -89,11 +93,10 @@
     </div>
 
 
-    <!-- footer details using font awesome --->
+    <!-- FOOTER DETAILS FOR FONT AWESOME --->
     <footer>
       <div class="container">
         <div class="row w-100 bg-warning text-dark text-center border">
-          <h6 id="FOOTER_2">FOLLOW JM HOLIDAYS</h6>
           <a href="#" class="white-text">
                         <i class="fab fa-facebook fa-2x"></i>
                     </a>
